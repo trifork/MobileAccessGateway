@@ -156,6 +156,18 @@
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-cxf</artifactId>           
         </dependency>
+        
+        <dependency>
+      <groupId>com.onelogin</groupId>
+      <artifactId>java-saml</artifactId>
+      <version>2.5.0</version>
+  </dependency>
+  
+  <dependency>
+  <groupId>org.apache.cxf</groupId>
+  <artifactId>cxf-rt-rs-security-sso-saml</artifactId>
+  <version>2.6.1</version>
+</dependency>
 
 		<!-- Development tools -->
 		<dependency>
